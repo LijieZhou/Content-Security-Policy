@@ -27,7 +27,8 @@ public class ContentParser {
         try{
             
             //read the json File
-            FileReader reader = new FileReader("/Users/lijie/Desktop/facebook.json");
+//            FileReader reader = new FileReader("/Users/lijie/Desktop/facebook.har");
+            FileReader reader = new FileReader("/Users/lijie/NetBeansProjects/contentParser/src/contentparser/facebook.har");
             JSONParser jsonParser = new JSONParser();
             JSONObject jsonObject = (JSONObject) jsonParser.parse(reader);
 //            System.out.println(jsonObject);
